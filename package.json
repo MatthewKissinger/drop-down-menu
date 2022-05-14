@@ -1,0 +1,26 @@
+{
+  "name": "drop-down-menu",
+  "version": "1.0.0",
+  "description": "Reusable drop-down-menu for on-hover or on click",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewKissinger/drop-down-menu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewKissinger/drop-down-menu/issues"
+  },
+  "homepage": "https://github.com/MatthewKissinger/drop-down-menu#readme",
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
