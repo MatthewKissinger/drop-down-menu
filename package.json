@@ -1,10 +1,9 @@
 {
   "name": "drop-down-menu",
   "version": "1.0.0",
-  "description": "Reusable drop-down-menu for on-hover or on click",
+  "description": "Reusable drop-down-menu that displays on mouseover",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "watch": "webpack --watch"
   },

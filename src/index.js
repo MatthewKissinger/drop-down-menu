@@ -1,18 +1,30 @@
 //create a class system and styling system
-import './main.scss';
+import './drop-menu.scss';
 
-// DOM Cache
-let dropContainer = document.querySelector('.drop-container');
+export function toggleDropMenu() {
+    // DOM Cache
+let dropContainers = document.querySelectorAll('.drop-container');
 
-let dropMenu = document.querySelector('.drop-menu');
+dropContainers.forEach(container => {
+    container.addEventListener('mouseover', function(e) {
+        if (!e.target.matches('li')) {
+            this.getElementsByTagName('ul')[0].classList.remove('hide');
+        }
+    })
+});
 
-dropContainer.addEventListener('mouseover', function(e) {
-    if (!e.target.matches('li')) {
-        dropMenu.classList.remove('hide');
-    }
-})
+dropContainers.forEach(container => {
+    container.addEventListener('mouseleave', function() {
+        this.getElementsByTagName('ul')[0].classList.add('hide');
+    })
+});
+}
 
-dropContainer.addEventListener('mouseleave', function() {
-    dropMenu.classList.add('hide');
-})
+
+// Initial call for testing
+toggleDropMenu();
+
+
+
+
 
