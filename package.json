@@ -1,8 +1,7 @@
 {
-  "name": "drop-down-menu",
+  "name": "mk-drop-menu-on-hover",
   "version": "1.0.0",
   "description": "Reusable drop-down-menu that displays on mouseover",
-  "private": true,
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch"

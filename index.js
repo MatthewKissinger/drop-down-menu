@@ -1,5 +1,5 @@
 //create a class system and styling system
-import './drop-menu.scss';
+import './src/drop-menu.scss';
 
 export function toggleDropMenu() {
     // DOM Cache
@@ -19,7 +19,6 @@ dropContainers.forEach(container => {
     })
 });
 }
-
 
 // Initial call for testing
 toggleDropMenu();

@@ -4,12 +4,14 @@ Reusable drop-down-menu that displays on mouseover and hides on mouseleave
 
 # installation
 
-`npm install mk-drop-down-menu --save-dev`
+`npm install mk-drop-menu-on-hover --save-dev`
+
+** please note that this package uses scss **
 
 # usage
 
 ```
-import { toggleDropDown } from 'mk-drop-down';
+import { toggleDropDown } from 'mk-drop-menu-on-hover';
 
 toggleDropDown();
 ```
